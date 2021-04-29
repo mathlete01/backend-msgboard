@@ -1,0 +1,28 @@
+{
+  "name": "backend-msgboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": 
+  {    "dev": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathlete01/backend-msgboard.git"
+  },
+  "author": "Matty Sallin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mathlete01/backend-msgboard/issues"
+  },
+  "homepage": "https://github.com/mathlete01/backend-msgboard#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongodb": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
